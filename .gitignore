@@ -2,6 +2,15 @@ Binaries
 DerivedDataCache
 Intermediate
 Saved
+Package
+
+Build/*
+!Build/*/
+Build/*/**
+!Build/*/PakBlacklist*.txt
+!Build/**/*.ico
+*_BuiltData.uasset
+
 .vscode
 .vs
 *.VC.db
